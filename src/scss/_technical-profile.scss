@@ -1,0 +1,22 @@
+.technical-profile {
+  display: flex;
+  justify-content: space-between;
+  word-wrap: break-word;
+  flex-wrap: wrap;
+  margin-top: $technical-profile-margin;
+
+  &-card {
+    width: $technical-profile-card-width;
+    &:nth-child(odd) {
+      width: calc(
+        $technical-profile-card-width - $technical-profile-card-padding
+      );
+      padding-right: $technical-profile-card-padding;
+    }
+    p {
+      text-align: left;
+      font-family: $times-new-roman-font;
+      line-height: 2rem;
+    }
+  }
+}

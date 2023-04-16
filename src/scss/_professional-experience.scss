@@ -1,0 +1,44 @@
+.professional-experience {
+  &-card {
+    display: flex;
+    flex-wrap: nowrap;
+    .duration {
+      width: 20%;
+      &.summary-text {
+        text-align: left;
+      }
+    }
+    .responsibilitiesAndCompanyDetails {
+      width: 70%;
+      padding: 0px 1.5rem;
+      .companyDetails {
+        display: flex;
+        flex-wrap: wrap;
+        h4.label-tertiary::after {
+          content: ",";
+          margin-right: 0.5rem;
+        }
+        a.summary-text {
+          text-decoration: none;
+          font-style: oblique;
+          color: lighten($color: #000000, $amount: 15);
+          font-weight: 400;
+        }
+      }
+      .responsibilities {
+        ul {
+          padding: 0 1.5rem;
+          li.summary-text {
+            justify-content: left;
+          }
+        }
+      }
+    }
+    .location {
+      width: 10%;
+      &.summary-text {
+        text-align: right;
+      }
+    }
+  }
+}

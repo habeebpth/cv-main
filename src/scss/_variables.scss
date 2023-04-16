@@ -1,0 +1,48 @@
+$bg-primary: #080839;
+
+$base-font-size: 10px;
+$base-font: "Roboto", sans-serif;
+$times-new-roman-font: "Times New Roman", Times, serif;
+$base-padding: 5rem;
+
+// primary label
+$label-primary-color: #333d60;
+$label-primary-size: 1.5rem;
+$label-primary-padding: 0 0 0.5rem 0;
+$label-primary-font-weight: 600;
+$label-primary-border-bottom: 0.2rem solid #2e3d60;
+$label-primary-font-family: $times-new-roman-font;
+
+// tertiary label
+$label-tertiary-color: #000;
+$label-tertiary-size: 1.5rem;
+$label-tertiary-padding: 0 0 0.5rem 0;
+$label-tertiary-font-weight: bolder;
+$label-tertiary-font-family: $times-new-roman-font;
+
+// summary-text
+$summary-text-color: #000;
+$summary-text-size: 1.5rem;
+$summary-text-line-height: 2rem;
+$summary-text-padding: 0 0 0.5rem 0;
+$summary-text-font-weight: 400;
+$summary-text-font-family: $base-font;
+
+//overview section
+$overview-section-height: 25rem;
+$overview-section-padding: $base-padding $base-padding $base-padding - 1rem
+  $base-padding;
+$overview-section-img-size: 13rem;
+$overview-section-img-radius: 50%;
+$overview-section-img-margin: 0 1.5rem 0 0;
+$overview-details-section-font-size: 1.5rem;
+$overview-details-section-color: #fff;
+
+//details section
+$details-section-padding: $base-padding - 2rem $base-padding $base-padding
+  $base-padding;
+
+//technical-profile
+$technical-profile-margin: 1.5rem 0 0 0;
+$technical-profile-card-width: 50%;
+$technical-profile-card-padding: 2rem;

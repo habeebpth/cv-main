@@ -1,0 +1,18 @@
+.award-section {
+  &-card {
+    &:not(:first-child){
+      margin-top: 1rem;
+    }
+    display: flex;
+    h4.label-tertiary {
+      &::after {
+        content: ",";
+        margin-right: 0.5rem;
+      }
+    }
+    p.summary-text{
+      font-family: $times-new-roman-font;
+      font-style: oblique;
+    }
+  }
+}

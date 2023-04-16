@@ -1,0 +1,30 @@
+* {
+  &::after,
+  &::before {
+    padding: 0px;
+    margin: 0px;
+  }
+}
+
+body,
+html {
+  padding: 0px;
+  margin: auto;
+  width: 793px;
+  font-size: $base-font-size;
+  font-family: $base-font;
+  // -webkit-print-color-adjust: exact;
+  // print-color-adjust: exact;
+}
+html {
+  background-color: black;
+}
+@media print {
+  html {
+    background-color: #fff !important;
+  }
+}
+
+body {
+  background-color: #fff;
+}

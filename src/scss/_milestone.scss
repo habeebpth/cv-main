@@ -1,0 +1,13 @@
+.milestone-section {
+  a {
+    display: flex;
+    text-decoration: none;
+    h4{
+      padding: 0;
+    }
+  }
+  .sub-title{
+    font-family: $times-new-roman-font;
+    // font-style: oblique;
+  }
+}
